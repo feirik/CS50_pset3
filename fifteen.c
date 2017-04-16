@@ -159,7 +159,7 @@ void greet(void)
 void init(int board[][d], int d)
 {
     int k = 1;
-    // Fills board locations with (dimension^2 - 1 - k)
+    // Fills board locations with integers (dimension^2 - k)
     // Starting in top left corner
     for(int i = 0; i < d; i++)
     {
